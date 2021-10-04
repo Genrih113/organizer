@@ -1,0 +1,11 @@
+.profile {
+  background-color: gray;
+  max-width: 120px;
+  border-radius: 4px;
+}
+
+.profile__image {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}

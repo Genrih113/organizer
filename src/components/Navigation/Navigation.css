@@ -1,0 +1,15 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.navigation__slider {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.navigation__feature {
+  margin: 0 16px;
+}
