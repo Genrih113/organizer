@@ -1,4 +1,5 @@
 .feature-container {
   min-height: 300px;
   padding: 4px;
+  flex-grow: 1;
 }

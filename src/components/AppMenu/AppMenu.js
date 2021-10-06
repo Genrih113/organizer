@@ -3,9 +3,7 @@ import './AppMenu.css';
 function AppMenu(props) {
 
   return (
-    <button className="app-menu">
-      =
-    </button>
+    <button className="app-menu">&#8801;</button>
   )
 }
 

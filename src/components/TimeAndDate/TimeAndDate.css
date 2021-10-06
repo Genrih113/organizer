@@ -6,4 +6,9 @@
   justify-content:space-evenly;
   padding: 4px;
   border-radius: 4px;
+  background-color: #444;
+}
+
+.header__time-and-date {
+  margin: 0 4px;
 }

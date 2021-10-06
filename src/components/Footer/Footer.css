@@ -1,5 +1,6 @@
 .footer {
-  min-height: 100px;
+  min-height: 40px;
   padding: 4px;
   text-align: center;
+  flex-shrink: 0;
 }

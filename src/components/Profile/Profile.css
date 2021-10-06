@@ -1,5 +1,6 @@
 .profile {
   background-color: gray;
+  width: 20%;
   max-width: 120px;
   border-radius: 4px;
 }
@@ -8,4 +9,5 @@
   display: block;
   max-width: 100%;
   object-fit: cover;
+  border-radius: 4px;
 }

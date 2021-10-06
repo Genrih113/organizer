@@ -1,0 +1,105 @@
+.todo {
+  padding: 4px;
+  background-color: #444;
+  border-radius: 4px;
+}
+
+.todo__block {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo__list-button {
+  align-self: center;
+  width: 70%;
+  background-color: #3a668b;
+  padding: 8px;
+  border: 2px solid #171717;
+  border-radius: 4px;
+  color: #e5e5e5;
+}
+
+.todo__list-button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.todo__list {
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  border: 2px solid #171717;
+  border-radius: 4px;
+}
+
+.list-item__margin {
+  margin: 2px 0;
+}
+
+.list-item__checkbox-container {
+  box-sizing: border-box;
+  position: relative;
+  background-color: #438081;
+  border: 2px solid #171717;
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+}
+
+.list-item__checkbox-container:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.list-item__checkbox {
+  position: absolute;
+  opacity: 0;
+  width: 20px;
+  height: 20px;
+  z-index: 10;
+}
+
+.list-item__checkbox:hover {
+  cursor: pointer;
+}
+
+.list-item__checkbox-span {
+  opacity: 0;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.list-item__checkbox:checked+.list-item__checkbox-span {
+  opacity: 1;
+}
+
+.list-item__text {
+  padding: 0 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.list-item__delete-button {
+  box-sizing: border-box;
+  margin-left: auto;
+  background-color: #438081;
+  border: 2px solid #171717;
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  text-align: center;
+  flex: none;
+  color: #e5e5e5;
+}
+
+.list-item__delete-button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}

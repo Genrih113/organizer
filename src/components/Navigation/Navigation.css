@@ -4,12 +4,27 @@
   padding: 4px;
 }
 
+.navigation__button {
+  background-color: #444;
+  border-radius: 4px;
+  border-style: none;
+  color: inherit;
+}
+
 .navigation__slider {
   overflow: hidden;
   display: flex;
   align-items: center;
+  margin: 0 32px;
 }
 
 .navigation__feature {
-  margin: 0 16px;
+  margin-right: 32px;
+  background-color: #444;
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+.navigation__feature:last-of-type {
+  margin-right: 0;
 }
